@@ -1,0 +1,710 @@
+<!--task 1 HTML-->
+<table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Score 1</th>
+      <th>Score 2</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>94</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>Jackson</td>
+      <td>Doe</td>
+      <td>50</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>John</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  
+  
+  <!--task 2 HTML-->
+  <ul>
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+
+  <!--task 3 HTML-->
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title>Link Examples</title>
+  </head>
+  <body>
+      <p>
+          <a href="https://www.example.com" target="_blank">Opens in New</a> |
+          <a href="https://www.example.com" target="_self">Opens in Self</a> |
+          <a href="https://www.example.com" target="_parent">Opens in Parent</a> |
+          <a href="https://www.example.com" target="_top">Opens in Body</a> |
+          <a href="mailto:youremail@example.com">Send email</a>
+      </p>
+  </body>
+  </html>
+
+
+
+
+ <!--task 4 HTML-->
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+</head>
+<body>
+    <h2>User Registration</h2>
+    <form action="#" method="post">
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+        
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="re_password">Re-Password:</label>
+        <input type="password" id="re_password" name="re_password" required><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
+
+  <!--task 4 HTML-->
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="re_password">Re-enter Password:</label>
+        <input type="password" id="re_password" name="re_password" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="tel" id="phone_number" name="phone_number"><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state"><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Choose your country</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <!-- Add more countries as needed -->
+        </select><br><br>
+        <label for="languages_known">Languages known:</label>
+        <input type="checkbox" id="english" name="languages_known" value="English">
+        <label for="english">English</label>
+        <input type="checkbox" id="kannada" name="languages_known" value="Kannada">
+        <label for="kannada">Kannada</label>
+        <input type="checkbox" id="hindi" name="languages_known" value="Hindi">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="telugu" name="languages_known" value="Telugu">
+        <label for="telugu">Telugu</label><br><br>
+
+        <input type="checkbox" id="declare" name="declare" required>
+        <label for="declare">Hereby I declare all the given details are true</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+    <p>Already have an account? <a href="#">Log in to Ethanus website</a></p>
+</body>
+</html> 
+
+
+
+
+<!--task 1 CSS TASK-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styling Example</title>
+    <style>
+        /* Style the labels */
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        /* Style the data */
+        .data {
+            color: #333;
+        }
+
+        /* Style specific elements by ID */
+        #firstname {
+            font-size: 18px;
+        }
+
+        #lastname {
+            font-size: 18px;
+        }
+
+        #age {
+            font-size: 18px;
+        }
+
+        /* Style specific elements by class */
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Styling Example</h1>
+    <label for="firstname">Firstname:</label>
+    <span id="firstname" class="data">Eve</span><br><br>
+
+    <label for="lastname">Lastname:</label>
+    <span id="lastname" class="data">Jackson Doe</span><br><br>
+
+    <label for="age">Age:</label>
+    <span id="age" class="data">30</span><br><br>
+
+    <!-- Apply a class to highlight specific data -->
+    <label>Other Information:</label>
+    <span class="data highlight">Highlighted Data</span><br><br>
+</body>
+</html>
+
+
+<!--task 2 CSS TASK-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bars</title>
+    <style>
+        /* Vertical Navigation Bar */
+        .vertical-nav {
+            width: 200px;
+            background-color: #333;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            color: white;
+        }
+
+        .vertical-nav a {
+            display: block;
+            color: white;
+            padding: 10px 0;
+            text-decoration: none;
+        }
+
+        .vertical-nav a:hover {
+            background-color: #555;
+        }
+
+        /* Horizontal Navigation Bar */
+        .horizontal-nav {
+            background-color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            color: white;
+        }
+
+        .horizontal-nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .horizontal-nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+    </div>
+
+    <div class="horizontal-nav">
+        <div>
+            <a href="#">CSS</a>
+            <a href="#">HTML</a>
+            <a href="#">Bootstrap</a>
+        </div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Java</a>
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!--task 3 CSS TASK-->
+
+
+No<!DOCTYPE html>
+<html>
+<head>
+    <title>Company List</title>
+    <style>
+        /* Style the main container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style the individual rows */
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* Style the columns */
+        .column {
+            flex-basis: 30%;
+        }
+
+        /* Style the headers */
+        .header {
+            font-weight: bold;
+        }
+
+        /* Style the data */
+        .data {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row header">
+            <div class="column">Company</div>
+            <div class="column">Contact</div>
+            <div class="column">Country</div>
+        </div>
+        <div class="row">
+            <div class="column data">Alfreds Futterkiste</div>
+            <div class="column data">Maria Anders</div>
+            <div class="column data">Germany</div>
+        </div>
+        <div class="row">
+            <div class="column data">Berglunds snabbkop</div>
+            <div class="column data">Christina Berglund</div>
+            <div class="column data">Sweden</div>
+        </div>
+        <!-- Repeat the rows for other companies -->
+    </div>
+</body>
+</html>
+
+
+<!--task 4 CSS TASK-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hoverable Sidenav Buttons</title>
+    <style>
+        /* Style the container for the sidebar */
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: -250px; /* Start with the sidebar hidden */
+            background-color: #333;
+            padding-top: 20px;
+            transition: left 0.3s; /* Add a smooth transition effect */
+        }
+
+        /* Style the sidebar links */
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+            display: block;
+            transition: 0.3s; /* Add a smooth transition effect on hover */
+        }
+
+        /* On hover, expand the sidebar */
+        .sidenav a:hover {
+            padding-left: 40px;
+        }
+
+        /* Show the sidebar when hovering over it */
+        .sidenav:hover {
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidenav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<!-- Content goes here -->
+
+</body>
+</html>
+
+
+
+<!--task 5 CSS TASK-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        /* Style the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style the headings */
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        /* Style the main content container */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style the text */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        /* Style the date */
+        .date {
+            font-style: italic;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Home Page</h1>
+        <h2>Musings</h2>
+        <h3>My town</h3>
+        <h2>Links</h2>
+
+        <p>My first styled page</p>
+        <p>Welcome to my styled page!</p>
+        <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+        <p>There should be more here, but I don't know what yet.</p>
+
+        <p class="date">Made 5 April 2004 by myself.</p>
+    </div>
+</body>
+</html>
+
+
+
+<!--task 6 CSS TASK-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <style>
+        /* Style the form container */
+        .login-form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style the form labels */
+        label {
+            font-weight: bold;
+        }
+
+        /* Style the form inputs */
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        /* Style the login button */
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        /* Style the Remember Me checkbox */
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        /* Style the Cancel button */
+        .cancel-button {
+            background-color: #ccc;
+        }
+
+        /* Style the Forgot Password link */
+        .forgot-password {
+            text-align: right;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter Username" required><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required><br><br>
+
+        <input type="submit" value="Login"><br><br>
+
+        <label>
+            <input type="checkbox" name="remember"> Remember me
+        </label><br><br>
+
+        <input type="submit" class="cancel-button" value="Cancel"><br><br>
+
+        <p class="forgot-password"><a href="#">Forgot password?</a></p>
+    </div>
+</body>
+</html>
+
+
+
+
+<!--task 7 CSS TASK-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        /* Style the form container */
+        .registration-form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style the form labels */
+        label {
+            font-weight: bold;
+        }
+
+        /* Style the form inputs */
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        /* Style the Gender radio buttons */
+        .gender-label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Style the Language select */
+        select[name="language"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        /* Style the Register button */
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label>Gender:</label>
+        <label class="gender-label"><input type="radio" name="gender" value="male"> Male</label>
+        <label class="gender-label"><input type="radio" name="gender" value="female"> Female</label>
+        <label class="gender-label"><input type="radio" name="gender" value="other"> Other</label><br><br>
+
+        <label for="language">Language:</label>
+        <select name="language" id="language">
+            <option value="" selected>Select language</option>
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">French</option>
+            <!-- Add more language options as needed -->
+        </select><br><br>
+
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="zipcode" name="zipcode"><br><br>
+
+        <label for="about">About:</label>
+        <textarea id="about" name="about" rows="4"></textarea><br><br>
+
+        <input type="submit" value="Register">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
